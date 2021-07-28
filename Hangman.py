@@ -1,5 +1,7 @@
 import turtle
 import tkinter
+from tkinter import *
+import random
 
 def hangman():
     draw.speed(0)
@@ -117,97 +119,123 @@ main['bg'] = 'white'
 
 #connect tkinter and turtle
 canvas = tkinter.Canvas(master = main , width = 150 , height = 280)
-canvas.grid(row = 0 , column = 0)
+canvas.pack(fill = tkinter.Y , side = "left")
 draw = turtle.RawTurtle(canvas , visible = False)
 
 #variable
 wrong = 0
+hintList = ['girl' , 'city' , 'boy' , 'movie' , 'music' , 'brand']
+dice = random.randint(0,5)
+#hint lable
+hint = Label(main , text = hintList[dice] , font = 'arial')
+hint.pack()
+hint.place(x = 400 , y = 10)
+hint['bg'] = 'white'
 
 #Alphabet Keyboard
-Q = tkinter.Button(main , width = 4 , text = "Q" , command = lambda key = 'Q' : Keyword(key))
-Q.grid(row = 1 , column = 3) 
+Q = Button(main , width = 4 , text = "Q" , command = lambda key = 'Q' : Keyword(key))
+Q.pack()
+Q.place(x = 225 , y = 250)
 
-W = tkinter.Button(main , width = 4 , text = "W" , command = lambda key = 'W' : Keyword(key))
-W.grid(row = 1 , column = 4)
+W = Button(main , width = 4 , text = "W" , command = lambda key = 'W' : Keyword(key))
+W.pack()
+W.place(x = 270 , y = 250)
 
-E = tkinter.Button(main , width = 4 , text = "E" , command = lambda key = 'E' : Keyword(key))
-E.grid(row = 1 , column = 5) 
+E = Button(main , width = 4 , text = "E" , command = lambda key = 'E' : Keyword(key))
+E.pack()
+E.place(x = 315 , y = 250)
 
-R = tkinter.Button(main , width = 4 , text = "R" , command = lambda key = 'R' : Keyword(key))
-R.grid(row = 1 , column = 6) 
+R = Button(main , width = 4 , text = "R" , command = lambda key = 'R' : Keyword(key))
+R.pack() 
+R.place(x = 360 , y = 250)
 
-T = tkinter.Button(main , width = 4 , text = "T" , command = lambda key = 'T' : Keyword(key))
-T.grid(row = 1 , column = 7) 
+T = Button(main , width = 4 , text = "T" , command = lambda key = 'T' : Keyword(key))
+T.pack()
+T.place(x = 405 , y = 250)
 
-Y = tkinter.Button(main , width = 4 , text = "Y" , command = lambda key = 'Y' : Keyword(key))
-Y.grid(row = 1 , column = 8)
+Y = Button(main , width = 4 , text = "Y" , command = lambda key = 'Y' : Keyword(key))
+Y.pack()
+Y.place(x = 450 , y = 250)
 
-U = tkinter.Button(main , width = 4 , text = "U" , command = lambda key = 'U' : Keyword(key))
-U.grid(row = 1 , column = 9) 
+U = Button(main , width = 4 , text = "U" , command = lambda key = 'U' : Keyword(key))
+U.pack()
+U.place(x = 495 , y = 250)
 
-I = tkinter.Button(main , width = 4 , text = "I" , command = lambda key = 'I' : Keyword(key))
-I.grid(row = 1 , column = 10) 
+I = Button(main , width = 4 , text = "I" , command = lambda key = 'I' : Keyword(key))
+I.pack() 
+I.place(x = 540 , y = 250)
 
-O = tkinter.Button(main , width = 4 , text = "O" , command = lambda key = 'O' : Keyword(key))
-O.grid(row = 1 , column = 11) 
+O = Button(main , width = 4 , text = "O" , command = lambda key = 'O' : Keyword(key))
+O.pack()
+O.place(x = 585 , y = 250)
 
-P = tkinter.Button(main , width = 4 , text = "P" , command = lambda key = 'P' : Keyword(key))
-P.grid(row = 1 , column = 12) 
+P = Button(main , width = 4 , text = "P" , command = lambda key = 'P' : Keyword(key))
+P.pack()
+P.place(x = 630 , y = 250)
 
-A = tkinter.Button(main , width = 4 , text = "A" , command = lambda key = 'A' : Keyword(key))
-A.grid(row = 2 , column = 3)  
+A = Button(main , width = 4 , text = "A" , command = lambda key = 'A' : Keyword(key))
+A.pack() 
+A.place(x = 240 , y = 280)
 
-S = tkinter.Button(main , width = 4 , text = "S" , command = lambda key = 'S' : Keyword(key))
-S.grid(row = 2 , column = 4)
+S = Button(main , width = 4 , text = "S" , command = lambda key = 'S' : Keyword(key))
+S.pack() 
+S.place(x = 285 , y = 280)
 
-D = tkinter.Button(main , width = 4 , text = "D" , command = lambda key = 'D' : Keyword(key))
-D.grid(row = 2 , column = 5) 
+D = Button(main , width = 4 , text = "D" , command = lambda key = 'D' : Keyword(key))
+D.pack() 
+D.place(x = 330 , y = 280)
 
-F = tkinter.Button(main , width = 4 , text = "F" , command = lambda key = 'F' : Keyword(key))
-F.grid(row = 2 , column = 6)
+F = Button(main , width = 4 , text = "F" , command = lambda key = 'F' : Keyword(key))
+F.pack() 
+F.place(x = 375 , y = 280)
 
-G = tkinter.Button(main , width = 4 , text = "G" , command = lambda key = 'G' : Keyword(key))
-G.grid(row = 2 , column = 7) 
+G = Button(main , width = 4 , text = "G" , command = lambda key = 'G' : Keyword(key))
+G.pack() 
+G.place(x = 420 , y = 280)
 
-H = tkinter.Button(main , width = 4 , text = "H" , command = lambda key = 'H' : Keyword(key))
-H.grid(row = 2 , column = 8)
+H = Button(main , width = 4 , text = "H" , command = lambda key = 'H' : Keyword(key))
+H.pack() 
+H.place(x = 465 , y = 280)
 
-J = tkinter.Button(main , width = 4 , text = "J" , command = lambda key = 'J' : Keyword(key))
-J.grid(row = 2 , column = 9) 
+J = Button(main , width = 4 , text = "J" , command = lambda key = 'J' : Keyword(key))
+J.pack() 
+J.place(x = 510 , y = 280)
 
-K = tkinter.Button(main , width = 4 , text = "K" , command = lambda key = 'K' : Keyword(key))
-K.grid(row = 2 , column = 10) 
+K = Button(main , width = 4 , text = "K" , command = lambda key = 'K' : Keyword(key))
+K.pack()  
+K.place(x = 555 , y = 280)
 
-L = tkinter.Button(main , width = 4 , text = "L" , command = lambda key = 'L' : Keyword(key))
-L.grid(row = 2 , column = 11) 
+L = Button(main , width = 4 , text = "L" , command = lambda key = 'L' : Keyword(key))
+L.pack() 
+L.place(x = 600 , y = 280)
 
-Z = tkinter.Button(main , width = 4 , text = "Z" , command = lambda key = 'Z' : Keyword(key))
-Z.grid(row = 3 , column = 3) 
+Z = Button(main , width = 4 , text = "Z" , command = lambda key = 'Z' : Keyword(key))
+Z.pack()  
+Z.place(x = 255 , y = 310)
 
-X = tkinter.Button(main , width = 4 , text = "X" , command = lambda key = 'X' : Keyword(key))
-X.grid(row = 3 , column = 4) 
+X = Button(main , width = 4 , text = "X" , command = lambda key = 'X' : Keyword(key))
+X.pack() 
+X.place(x = 300 , y = 310)
 
-C = tkinter.Button(main , width = 4 , text = "C" , command = lambda key = 'C' : Keyword(key))
-C.grid(row = 3 , column = 5) 
+C = Button(main , width = 4 , text = "C" , command = lambda key = 'C' : Keyword(key))
+C.pack() 
+C.place(x = 345 , y = 310)
 
-V = tkinter.Button(main , width = 4 , text = "V" , command = lambda key = 'V' : Keyword(key))
-V.grid(row = 3 , column = 6)
+V = Button(main , width = 4 , text = "V" , command = lambda key = 'V' : Keyword(key))
+V.pack() 
+V.place(x = 390 , y = 310)
 
-B = tkinter.Button(main , width = 4 , text = "B" , command = lambda key = 'B' : Keyword(key))
-B.grid(row = 3 , column = 7) 
+B = Button(main , width = 4 , text = "B" , command = lambda key = 'B' : Keyword(key))
+B.pack() 
+B.place(x = 435 , y = 310)
 
-N = tkinter.Button(main , width = 4 , text = "N" , command = lambda key = 'N' : Keyword(key))
-N.grid(row = 3 , column = 8) 
+N = Button(main , width = 4 , text = "N" , command = lambda key = 'N' : Keyword(key))
+N.pack() 
+N.place(x = 480 , y = 310)
 
-M = tkinter.Button(main , width = 4 , text = "M" , command = lambda key = 'M' : Keyword(key))
-M.grid(row = 3 , column = 9) 
-
-#enter and delete
-enter = tkinter.Button(main , width = 4 , text = "Enter" , command = lambda key = "enter" : Keyword(key))
-enter.grid(row = 2 , column = 12)
-
-Delete = tkinter.Button(main , width = 4 , text = "Del" , command = lambda key = "delete" : Keyword(key))
-Delete.grid(row = 3 , column = 10)
+M = Button(main , width = 4 , text = "M" , command = lambda key = 'M' : Keyword(key))
+M.pack()
+M.place(x = 525 , y = 310)
 
 
 
