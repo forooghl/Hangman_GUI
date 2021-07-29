@@ -110,7 +110,18 @@ def KillHangman():
         draw.circle(14) # Head
 
 def Keyword(key):
-    print(key)
+    global answer , answerLength , charLocate , lastAnswer , wrong
+    
+    if answer.count(key) != 0:
+        charLocate = list(mit.locate(answer , lambda x : x == key))
+        lastAnswer = answerLable['text']
+        
+        for i in charLocate:    
+            lastAnswer = lastAnswer[:i*2] + key + lastAnswer[i*2 + 1 :]
+            answerLable.config(text = lastAnswer)
+    else:
+        wrong += 1
+        KillHangman()
 
 #main game
 main = tkinter.Tk()
@@ -126,7 +137,9 @@ draw = turtle.RawTurtle(canvas , visible = False)
 
 #variable
 wrong = 0
-dice = random.randint(0,5)
+dice = random.randint(0,2636)
+charLocate = list()
+lastAnswer = ""
 
 #database
 endFile = list()
