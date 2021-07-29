@@ -208,7 +208,7 @@ def Playagain():
     global wrong , dice , answer , answerLength , lineCount , lastAnswer 
 
     dice = random.randint(0,lineCount - 1)
-    hint.config(text = endFile[dice][0])
+    hint.config(text = "(" + endFile[dice][0] + ")")
     answer = endFile[dice][1].lower()
     answerLength = len(endFile[dice][1])
     answerLable.config(text = spaceFound() , fg = "black")
@@ -328,9 +328,9 @@ with open("D:\Work\Pythonexe\Project\Hangman\database.txt" , "r") as ReadMode:
 dice = random.randint(0,lineCount-1)
 
 #hint lable
-hint = Label(main , text = endFile[dice][0] , font = 'arial')
+hint = Label(main , text = "(" +endFile[dice][0] + ")", font = 'arial')
 hint.pack()
-hint.place(x = 400 , y = 10)
+hint.place(x = 180 , y = 10)
 hint['bg'] = '#FFCD73'
 
 #answer lable
@@ -338,7 +338,7 @@ answer = endFile[dice][1].lower()
 answerLength = len(endFile[dice][1])
 answerLable = Label(main , text = spaceFound() , font = 'arial')
 answerLable.pack()
-answerLable.place(x = 400 - answerLength*2 , y = 70)
+answerLable.place(x = 290 , y = 70)
 answerLable['bg'] = '#FFCD73'
 lastAnswer = answerLable["text"]
 
