@@ -1,0 +1,1 @@
+We are going to cover the Hangman game with tkinter and turtle python.
