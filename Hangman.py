@@ -6,7 +6,65 @@ import re
 import more_itertools as mit
 from tkinter import messagebox
 
+def DisButton():
+    Q['state'] = DISABLED
+    W['state'] = DISABLED
+    E['state'] = DISABLED
+    R['state'] = DISABLED
+    T['state'] = DISABLED
+    Y['state'] = DISABLED
+    U['state'] = DISABLED
+    I['state'] = DISABLED
+    O['state'] = DISABLED
+    P['state'] = DISABLED
+    A['state'] = DISABLED
+    S['state'] = DISABLED
+    D['state'] = DISABLED
+    F['state'] = DISABLED
+    G['state'] = DISABLED
+    H['state'] = DISABLED
+    J['state'] = DISABLED
+    K['state'] = DISABLED
+    L['state'] = DISABLED
+    Z['state'] = DISABLED
+    X['state'] = DISABLED
+    C['state'] = DISABLED
+    V['state'] = DISABLED
+    B['state'] = DISABLED
+    N['state'] = DISABLED
+    M['state'] = DISABLED
+
+def EnButton():
+    Q['state'] = NORMAL
+    W['state'] = NORMAL
+    E['state'] = NORMAL
+    R['state'] = NORMAL
+    T['state'] = NORMAL
+    Y['state'] = NORMAL
+    U['state'] = NORMAL
+    I['state'] = NORMAL
+    O['state'] = NORMAL
+    P['state'] = NORMAL
+    A['state'] = NORMAL
+    S['state'] = NORMAL
+    D['state'] = NORMAL
+    F['state'] = NORMAL
+    G['state'] = NORMAL
+    H['state'] = NORMAL
+    J['state'] = NORMAL
+    K['state'] = NORMAL
+    L['state'] = NORMAL
+    Z['state'] = NORMAL
+    X['state'] = NORMAL
+    C['state'] = NORMAL
+    V['state'] = NORMAL
+    B['state'] = NORMAL
+    N['state'] = NORMAL
+    M['state'] = NORMAL
+
 def hangman():
+    DisButton()
+
     draw.speed(0)
     draw.pencolor("black")
     draw.pensize(5) #pen size for draw gallows
@@ -79,6 +137,8 @@ def hangman():
 
     draw.forward(20)
 
+    EnButton()
+
 def KillHangman():
     global wrong
 
@@ -112,8 +172,8 @@ def KillHangman():
         draw.pendown()
 
         draw.circle(14) # Head
-        draw.lt(90)
-
+        draw.lt(90)  
+        
         #call gameover function
         gameover()
 
@@ -163,6 +223,61 @@ def Playagain():
 def Keyword(key):
     global answer , answerLength , charLocate , lastAnswer , wrong
     
+    #disable a button after click
+    if key == 'q' :
+        Q['state'] = DISABLED
+    elif key == 'w' :
+        W['state'] = DISABLED
+    elif key == 'e' :    
+        E['state'] = DISABLED
+    elif key == 'r' :
+        R['state'] = DISABLED
+    elif key == 't' :    
+        T['state'] = DISABLED
+    elif key == 'y' :
+        Y['state'] = DISABLED
+    elif key == 'u' :
+        U['state'] = DISABLED
+    elif key == 'i' :
+        I['state'] = DISABLED
+    elif key == 'o' :
+        O['state'] = DISABLED
+    elif key == 'p' :
+        P['state'] = DISABLED
+    elif key == 'a' :
+        A['state'] = DISABLED
+    elif key == 's' :
+        S['state'] = DISABLED
+    elif key == 'd' :
+        D['state'] = DISABLED
+    elif key == 'f' :
+        F['state'] = DISABLED
+    elif key == 'g' :
+        G['state'] = DISABLED
+    elif key == 'h' :
+        H['state'] = DISABLED
+    elif key == 'j' :
+        J['state'] = DISABLED
+    elif key == 'k' :
+        K['state'] = DISABLED
+    elif key == 'l' :
+        L['state'] = DISABLED
+    elif key == 'z' :
+        Z['state'] = DISABLED
+    elif key == 'x' :
+        X['state'] = DISABLED
+    elif key == 'c' :
+        C['state'] = DISABLED
+    elif key == 'v' :
+        V['state'] = DISABLED
+    elif key == 'b' :
+        B['state'] = DISABLED
+    elif key == 'n' :
+        N['state'] = DISABLED
+    elif key == 'm' :
+        M['state'] = DISABLED
+
+    #config answer lable after click alphabet button 
     if answer.count(key) != 0:
         charLocate = list(mit.locate(answer , lambda x : x == key))
         lastAnswer = answerLable['text']
@@ -173,6 +288,7 @@ def Keyword(key):
         wrong += 1
         KillHangman()
 
+    #check if win end game..
     if lastAnswer.count("_") == 0 and wrong < 6:
         win()
 
@@ -221,7 +337,6 @@ answerLable.place(x = 400 - answerLength*2 , y = 70)
 answerLable['bg'] = 'white'
 lastAnswer = answerLable["text"]
 
-print(answer)
 #Alphabet Keyboard
 Q = Button(main , width = 4 , text = "Q" , command = lambda key = 'q' : Keyword(key))
 Q.pack()
