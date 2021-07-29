@@ -21,7 +21,7 @@ def hangman():
     draw.forward(20)
     
     draw.left(90)
-    draw.forward(240)
+    draw.forward(200)
 
     draw.right(90)
     draw.forward(70)
@@ -129,18 +129,25 @@ def gameover():
     for i in charLocate:    
         lastAnswer = lastAnswer[:i] + answer[int(i/2)] + lastAnswer[i + 1 :]
         answerLable.config(text = lastAnswer , fg = "red")
+    
+def win():
+    messagebox.showinfo("Win" , "Yohooo , you save him")
+    playagain.place(x = 630 , y = 370)
 
 def Playagain():
-    global wrong , dice , answer , answerLength , lineCount
+    global wrong , dice , answer , answerLength , lineCount , lastAnswer 
 
     dice = random.randint(0,lineCount - 1)
     hint.config(text = endFile[dice][0])
     answer = endFile[dice][1].lower()
     answerLength = len(endFile[dice][1])
     answerLable.config(text = answerLength*"_ " , fg = "black")
+    lastAnswer = answerLable['text']
+
     canvas.delete("all")
     wrong = 0
 
+    draw.home()
     hangman()
     playagain.place(x = 800 , y = 1)
 
@@ -150,13 +157,15 @@ def Keyword(key):
     if answer.count(key) != 0:
         charLocate = list(mit.locate(answer , lambda x : x == key))
         lastAnswer = answerLable['text']
-        
         for i in charLocate:    
             lastAnswer = lastAnswer[:i*2] + key + lastAnswer[i*2 + 1 :]
             answerLable.config(text = lastAnswer)
     else:
         wrong += 1
         KillHangman()
+
+    if lastAnswer.count("_") == 0 and wrong < 6:
+        win()
 
 #main game
 main = tkinter.Tk()
@@ -200,6 +209,7 @@ answerLable = Label(main , text = answerLength*"_ " , font = 'arial')
 answerLable.pack()
 answerLable.place(x = 400 - answerLength*2 , y = 70)
 answerLable['bg'] = 'white'
+lastAnswer = answerLable["text"]
 
 #Alphabet Keyboard
 Q = Button(main , width = 4 , text = "Q" , command = lambda key = 'q' : Keyword(key))
