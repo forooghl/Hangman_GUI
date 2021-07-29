@@ -114,6 +114,10 @@ def KillHangman():
         draw.circle(14) # Head
         draw.lt(90)
 
+        #set playagain button on screen and show message when gameover
+        messagebox.showinfo("Lose" , "Dead")
+        playagain.place(x = 630 , y = 370)
+
 def Playagain():
     global wrong , dice , answer , answerLength
 
