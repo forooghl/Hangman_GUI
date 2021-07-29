@@ -160,17 +160,20 @@ draw = turtle.RawTurtle(canvas , visible = False)
 
 #variable
 wrong = 0
-dice = random.randint(0,2636)
 charLocate = list()
 lastAnswer = ""
+lineCount = 0
 
 #database
 endFile = list()
 with open("D:\Work\Pythonexe\Project\Hangman\database.txt" , "r") as ReadMode:
         File =  ReadMode.readlines()
         for line in File :
+            lineCount += 1
             line = re.sub(r"\n" , "" , line)
             endFile.append(line.split(" : "))
+
+dice = random.randint(0,lineCount-1)
 
 #hint lable
 hint = Label(main , text = endFile[dice][0] , font = 'arial')
