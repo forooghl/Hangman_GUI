@@ -114,18 +114,30 @@ def KillHangman():
         draw.circle(14) # Head
         draw.lt(90)
 
-        #set playagain button on screen and show message when gameover
-        messagebox.showinfo("Lose" , "Dead")
-        playagain.place(x = 630 , y = 370)
+        #call gameover function
+        gameover()
+ 
+def gameover():
+    global answer , charLocate , lastAnswer
+
+    messagebox.showinfo("Lose" , "Dead")
+    playagain.place(x = 630 , y = 370)
+
+    lastAnswer = answerLable['text']
+    charLocate = list(mit.locate(lastAnswer , lambda x : x == "_"))
+    
+    for i in charLocate:    
+        lastAnswer = lastAnswer[:i] + answer[int(i/2)] + lastAnswer[i + 1 :]
+        answerLable.config(text = lastAnswer , fg = "red")
 
 def Playagain():
-    global wrong , dice , answer , answerLength
+    global wrong , dice , answer , answerLength , lineCount
 
-    dice = random.randint(0,2636)
+    dice = random.randint(0,lineCount - 1)
     hint.config(text = endFile[dice][0])
     answer = endFile[dice][1].lower()
     answerLength = len(endFile[dice][1])
-    answerLable.config(text = answerLength*"_ ")
+    answerLable.config(text = answerLength*"_ " , fg = "black")
     canvas.delete("all")
     wrong = 0
 
