@@ -4,9 +4,11 @@ from tkinter import *
 import random
 import re
 import more_itertools as mit
+from tkinter import messagebox
 
 def hangman():
     draw.speed(0)
+    draw.pencolor("black")
     draw.pensize(5) #pen size for draw gallows
 
     #set start position
@@ -78,6 +80,8 @@ def hangman():
     draw.forward(20)
 
 def KillHangman():
+    global wrong
+    
     draw.pencolor("white")
 
     if wrong == 1:
@@ -108,6 +112,21 @@ def KillHangman():
         draw.pendown()
 
         draw.circle(14) # Head
+        draw.lt(90)
+
+def Playagain():
+    global wrong , dice , answer , answerLength
+
+    dice = random.randint(0,2636)
+    hint.config(text = endFile[dice][0])
+    answer = endFile[dice][1].lower()
+    answerLength = len(endFile[dice][1])
+    answerLable.config(text = answerLength*"_ ")
+    canvas.delete("all")
+    wrong = 0
+
+    hangman()
+    playagain.place(x = 800 , y = 1)
 
 def Keyword(key):
     global answer , answerLength , charLocate , lastAnswer , wrong
@@ -268,7 +287,10 @@ M = Button(main , width = 4 , text = "M" , command = lambda key = 'M' : Keyword(
 M.pack()
 M.place(x = 525 , y = 310)
 
-
+#play again button
+playagain = Button(main , text = "playagain" , fg = "red" , command = Playagain)
+playagain.pack()
+playagain.place(x = 800 , y = 1)
 
 hangman()
 KillHangman()
