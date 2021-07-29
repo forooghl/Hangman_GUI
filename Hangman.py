@@ -116,7 +116,16 @@ def KillHangman():
 
         #call gameover function
         gameover()
- 
+
+def spaceFound():
+    global answer , answerText , answerLength
+    charLocate = list(mit.locate(answer , lambda x : x == " "))
+    answerText = answerLength*"_ "
+
+    for i in charLocate:    
+        answerText = answerText[:i*2] + " " + answerText[i*2 + 1 :]
+    return answerText
+
 def gameover():
     global answer , charLocate , lastAnswer
 
@@ -141,7 +150,7 @@ def Playagain():
     hint.config(text = endFile[dice][0])
     answer = endFile[dice][1].lower()
     answerLength = len(endFile[dice][1])
-    answerLable.config(text = answerLength*"_ " , fg = "black")
+    answerLable.config(text = spaceFound() , fg = "black")
     lastAnswer = answerLable['text']
 
     canvas.delete("all")
@@ -184,6 +193,7 @@ wrong = 0
 charLocate = list()
 lastAnswer = ""
 lineCount = 0
+answerText = ""
 
 #database
 endFile = list()
@@ -205,12 +215,13 @@ hint['bg'] = 'white'
 #answer lable
 answer = endFile[dice][1].lower()
 answerLength = len(endFile[dice][1])
-answerLable = Label(main , text = answerLength*"_ " , font = 'arial')
+answerLable = Label(main , text = spaceFound() , font = 'arial')
 answerLable.pack()
 answerLable.place(x = 400 - answerLength*2 , y = 70)
 answerLable['bg'] = 'white'
 lastAnswer = answerLable["text"]
 
+print(answer)
 #Alphabet Keyboard
 Q = Button(main , width = 4 , text = "Q" , command = lambda key = 'q' : Keyword(key))
 Q.pack()
