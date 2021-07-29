@@ -126,7 +126,6 @@ draw = turtle.RawTurtle(canvas , visible = False)
 
 #variable
 wrong = 0
-hintList = ['girl' , 'city' , 'boy' , 'movie' , 'music' , 'brand']
 dice = random.randint(0,5)
 
 #database
@@ -138,10 +137,18 @@ with open("D:\Work\Pythonexe\Project\Hangman\database.txt" , "r") as ReadMode:
             endFile.append(line.split(" : "))
 
 #hint lable
-hint = Label(main , text = hintList[dice] , font = 'arial')
+hint = Label(main , text = endFile[dice][0] , font = 'arial')
 hint.pack()
 hint.place(x = 400 , y = 10)
 hint['bg'] = 'white'
+
+#answer lable
+answer = endFile[dice][1].lower()
+answerLength = len(endFile[dice][1])
+answerLable = Label(main , text = answerLength*"_ " , font = 'arial')
+answerLable.pack()
+answerLable.place(x = 400 - answerLength*2 , y = 70)
+answerLable['bg'] = 'white'
 
 #Alphabet Keyboard
 Q = Button(main , width = 4 , text = "Q" , command = lambda key = 'Q' : Keyword(key))
