@@ -2,6 +2,8 @@ import turtle
 import tkinter
 from tkinter import *
 import random
+import re
+import more_itertools as mit
 
 def hangman():
     draw.speed(0)
@@ -126,6 +128,15 @@ draw = turtle.RawTurtle(canvas , visible = False)
 wrong = 0
 hintList = ['girl' , 'city' , 'boy' , 'movie' , 'music' , 'brand']
 dice = random.randint(0,5)
+
+#database
+endFile = list()
+with open("D:\Work\Pythonexe\Project\Hangman\database.txt" , "r") as ReadMode:
+        File =  ReadMode.readlines()
+        for line in File :
+            line = re.sub(r"\n" , "" , line)
+            endFile.append(line.split(" : "))
+
 #hint lable
 hint = Label(main , text = hintList[dice] , font = 'arial')
 hint.pack()
