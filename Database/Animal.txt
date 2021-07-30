@@ -1,0 +1,1029 @@
+Animal : Aardvark
+Animal : Abyssinian
+Animal : Adelie Penguin
+Animal : Affenpinscher
+Animal : Afghan Hound
+Animal : African Bullfrog
+Animal : African Bush Elephant
+Animal : African Civet
+Animal : African Clawed Frog
+Animal : African Forest Elephant
+Animal : African Palm Civet
+Animal : African Penguin
+Animal : African Tree Toad
+Animal : African Wild Dog
+Animal : Ainu
+Animal : Airedale Terrier
+Animal : Airedoodle
+Animal : Akbash
+Animal : Akita
+Animal : Akita Shepherd
+Animal : Alabai
+Animal : Alaskan Husky
+Animal : Alaskan Malamute
+Animal : Alaskan Shepherd
+Animal : Albacore Tuna
+Animal : Albatross
+Animal : Aldabra Giant Tortoise
+Animal : Alligator
+Animal : Alligator Gar
+Animal : Alpaca
+Animal : Alpine Dachsbracke
+Animal : Alpine Goat
+Animal : Alusky
+Animal : Amazon River Dolphin (Pink Dolphin)
+Animal : American Alsatian
+Animal : American Bulldog
+Animal : American Cocker Spaniel
+Animal : American Coonhound
+Animal : American Eskimo Dog
+Animal : American Foxhound
+Animal : American Hairless Terrier
+Animal : American Pit Bull Terrier
+Animal : American Pygmy Goat
+Animal : American Staffordshire Terrier
+Animal : American Toad
+Animal : American Water Spaniel
+Animal : Amur Leopard
+Animal : Anatolian Shepherd Dog
+Animal : Anchovies
+Animal : Angelfish
+Animal : Angora Goat
+Animal : Ant
+Animal : Anteater
+Animal : Antelope
+Animal : Appenzeller Dog
+Animal : Apple Head Chihuahua
+Animal : Arapaima
+Animal : Arctic Fox
+Animal : Arctic Hare
+Animal : Arctic Wolf
+Animal : Armadillo
+Animal : Asian Elephant
+Animal : Asian Giant Hornet
+Animal : Asian Palm Civet
+Animal : Asiatic Black Bear
+Animal : Aurochs
+Animal : Aussiedoodle
+Animal : Aussiedor
+Animal : Australian Bulldog
+Animal : Australian Cattle Dog
+Animal : Australian Kelpie Dog
+Animal : Australian Labradoodle
+Animal : Australian Mist
+Animal : Australian Retriever
+Animal : Australian Shepherd
+Animal : Australian Terrier
+Animal : Avocet
+Animal : Axolotl
+Animal : Aye Aye
+Animal : Baboon
+Animal : Bactrian Camel
+Animal : Badger
+Animal : Baiji
+Animal : Balinese
+Animal : Banded Palm Civet
+Animal : Bandicoot
+Animal : Banjo Catfish
+Animal : Barb
+Animal : Barn Owl
+Animal : Barnacle
+Animal : Barracuda
+Animal : Barramundi Fish
+Animal : Barred Owl
+Animal : Basenji Dog
+Animal : Basking Shark
+Animal : Bassador
+Animal : Basset Fauve de Bretagne
+Animal : Basset Hound
+Animal : Bassetoodle
+Animal : Bat
+Animal : Bavarian Mountain Hound
+Animal : Bea Tzu
+Animal : Beabull
+Animal : Beagador
+Animal : Beagle
+Animal : Beagle Shepherd
+Animal : Beaglier
+Animal : Beago
+Animal : Bear
+Animal : Bearded Collie
+Animal : Bearded Dragon
+Animal : Beaski
+Animal : Beaver
+Animal : Bedlington Terrier
+Animal : Beetle
+Animal : Belgian Shepherd
+Animal : Beluga Sturgeon
+Animal : Bengal Tiger
+Animal : Bergamasco
+Animal : Bernedoodle
+Animal : Bernese Mountain Dog
+Animal : Bernese Shepherd
+Animal : Bichir
+Animal : Bichon Frise
+Animal : Bichpoo
+Animal : Biewer Terrier
+Animal : Bighorn Sheep
+Animal : Bilby
+Animal : Binturong
+Animal : Bird
+Animal : Bird Of Paradise
+Animal : Birman
+Animal : Bison
+Animal : Black Marlin
+Animal : Black Rhinoceros
+Animal : Black Russian Terrier
+Animal : Black Wasp
+Animal : Black Widow Spider
+Animal : Black Footed Ferret
+Animal : Blister Beetle
+Animal : Blobfish
+Animal : Bloodhound
+Animal : Blue grosbeak
+Animal : Blue Iguana
+Animal : Blue Jay
+Animal : Blue Lacy Dog
+Animal : Blue Shark
+Animal : Blue Whale
+Animal : Bluefin Tuna
+Animal : Bluetick Coonhound
+Animal : Bobcat
+Animal : Boggle
+Animal : Boglen Terrier
+Animal : Bolognese Dog
+Animal : Bombay
+Animal : Bongo
+Animal : Bonito Fish
+Animal : Bonnethead Shark
+Animal : Bonobo
+Animal : Booby
+Animal : Borador
+Animal : Border Collie
+Animal : Border Terrier
+Animal : Bordoodle
+Animal : Borkie
+Animal : Bornean Orang utan
+Animal : Borneo Elephant
+Animal : Boston Terrier
+Animal : Bottlenose Dolphin
+Animal : Bowfin
+Animal : Bowhead Whale
+Animal : Box Turtle
+Animal : Boxador
+Animal : Boxer Dog
+Animal : Boxerdoodle
+Animal : Boxsky
+Animal : Boxweiler
+Animal : Boykin Spaniel
+Animal : Brazilian Terrier
+Animal : British Timber
+Animal : Brittany
+Animal : Brown Bear
+Animal : Brown Hyena
+Animal : Budgerigar
+Animal : Buffalo
+Animal : Bull Shark
+Animal : Bull Terrier
+Animal : Bulldog
+Animal : Bullfrog
+Animal : Bullmastiff
+Animal : Bumblebee
+Animal : Burmese
+Animal : Burmese Python
+Animal : Burrowing Frog
+Animal : Bush Baby
+Animal : Butterfly
+Animal : Butterfly Fish
+Animal : Caiman
+Animal : Caiman Lizard
+Animal : Cairn Terrier
+Animal : Camel
+Animal : Camel Cricket
+Animal : Camel Spider
+Animal : Canaan Dog
+Animal : Canada Lynx
+Animal : Canadian Eskimo Dog
+Animal : Canadian Horse
+Animal : Cane Corso
+Animal : Capybara
+Animal : Caracal
+Animal : Carolina Dog
+Animal : Carolina Parakeet
+Animal : Carp
+Animal : Cashmere Goat
+Animal : Cassowary
+Animal : Cat
+Animal : Caterpillar
+Animal : Catfish
+Animal : Cavador
+Animal : Cavalier King Charles Spaniel
+Animal : Cavapoo
+Animal : Centipede
+Animal : Cesky Fousek
+Animal : Cesky Terrier
+Animal : Chameleon
+Animal : Chamois
+Animal : Cheagle
+Animal : Cheetah
+Animal : Chesapeake Bay Retriever
+Animal : Chickadee
+Animal : Chicken
+Animal : Chihuahua
+Animal : Chimaera
+Animal : Chimpanzee
+Animal : Chinchilla
+Animal : Chinese Crested Dog
+Animal : Chinese Paddlefish
+Animal : Chinese Shar Pei
+Animal : Chinook
+Animal : Chinstrap Penguin
+Animal : Chipmunk
+Animal : Chipoo
+Animal : Chorkie
+Animal : Chow Chow
+Animal : Chow Shepherd
+Animal : Cicada
+Animal : Cichlid
+Animal : Clouded Leopard
+Animal : Clownfish
+Animal : Clumber Spaniel
+Animal : Coati
+Animal : Cockapoo
+Animal : Cockatoo
+Animal : Cockroach
+Animal : Codfish
+Animal : Coelacanth
+Animal : Collared Peccary
+Animal : Collie
+Animal : Colossal Squid
+Animal : Common Buzzard
+Animal : Common Frog
+Animal : Common Loon
+Animal : Common Raven
+Animal : Common Toad
+Animal : Cookiecutter Shark
+Animal : Cooper’s Hawk
+Animal : Coral
+Animal : Corgidor
+Animal : Corgipoo
+Animal : Corkie
+Animal : Corman Shepherd
+Animal : Cotton top Tamarin
+Animal : Cougar
+Animal : Cow
+Animal : Coyote
+Animal : Crab
+Animal : Crab Spider
+Animal : Crab Eating Macaque
+Animal : Crane
+Animal : Crested Penguin
+Animal : Crocodile
+Animal : Cross River Gorilla
+Animal : Curly Coated Retriever
+Animal : Cuscus
+Animal : Dachsador
+Animal : Dachshund
+Animal : Dalmadoodle
+Animal : Dalmador
+Animal : Dalmatian
+Animal : Dapple Dachshund
+Animal : Darwin’s Frog
+Animal : Deer
+Animal : Deer Head Chihuahua
+Animal : Desert Locust
+Animal : Desert Rain Frog
+Animal : Desert Tortoise
+Animal : Deutsche Bracke
+Animal : Dhole
+Animal : Dingo
+Animal : Discus
+Animal : Doberman Pinscher
+Animal : Dodo
+Animal : Dog
+Animal : Dogo Argentino
+Animal : Dogue De Bordeaux
+Animal : Dolphin
+Animal : Donkey
+Animal : Dorkie
+Animal : Dormouse
+Animal : Double Doodle
+Animal : Doxiepoo
+Animal : Doxle
+Animal : Dragonfish
+Animal : Dragonfly
+Animal : Drever
+Animal : Drum Fish
+Animal : Duck
+Animal : Dugong
+Animal : Dunker
+Animal : Dusky Dolphin
+Animal : Dwarf Crocodile
+Animal : Eagle
+Animal : Earwig
+Animal : Eastern Bluebird
+Animal : Eastern Gorilla
+Animal : Eastern Lowland Gorilla
+Animal : Eastern Phoebe
+Animal : Echidna
+Animal : Edible Frog
+Animal : Eel
+Animal : Egyptian Mau
+Animal : Electric Eel
+Animal : Elephant
+Animal : Elephant Seal
+Animal : Elephant Shrew
+Animal : Elk
+Animal : Emperor Penguin
+Animal : Emperor Tamarin
+Animal : Emu
+Animal : English Cocker Spaniel
+Animal : English Cream Golden Retriever
+Animal : English Pointer
+Animal : English Shepherd
+Animal : English Springer Spaniel
+Animal : Entlebucher Mountain Dog
+Animal : Epagneul Pont Audemer
+Animal : Ermine
+Animal : Eskimo Dog
+Animal : Eskipoo
+Animal : Estrela Mountain Dog
+Animal : Falcon
+Animal : Fallow deer
+Animal : False Killer Whale
+Animal : Fangtooth
+Animal : Feist
+Animal : Fennec Fox
+Animal : Ferret
+Animal : Ferruginous Hawk
+Animal : Field Spaniel
+Animal : Fin Whale
+Animal : Finnish Spitz
+Animal : Fire salamander
+Animal : Fire Bellied Toad
+Animal : Fish
+Animal : Fisher Cat
+Animal : Fishing Cat
+Animal : Flamingo
+Animal : Flat Coated Retriever
+Animal : Florida Gar
+Animal : Florida Panther
+Animal : Flounder
+Animal : Fluke Fish (summer flounder)
+Animal : Fly
+Animal : Flying Fish
+Animal : Flying Lemur
+Animal : Flying Squirrel
+Animal : Fossa
+Animal : Fox
+Animal : Fox Terrier
+Animal : French Bulldog
+Animal : Frengle
+Animal : Frigatebird
+Animal : Frilled Lizard
+Animal : Frilled Shark
+Animal : Frog
+Animal : Fruit Bat
+Animal : Fur Seal
+Animal : Galapagos Penguin
+Animal : Galapagos Tortoise
+Animal : Gar
+Animal : Garden Eel
+Animal : Gecko
+Animal : Gentoo Penguin
+Animal : Geoffroys Tamarin
+Animal : Gerberian Shepsky
+Animal : Gerbil
+Animal : German Pinscher
+Animal : German Shepherd Guide
+Animal : German Sheppit
+Animal : German Sheprador
+Animal : German Spitz
+Animal : Gharial
+Animal : Giant African Land Snail
+Animal : Giant Armadillo
+Animal : Giant Clam
+Animal : Giant Panda Bear
+Animal : Giant Salamander
+Animal : Giant Schnauzer
+Animal : Giant Schnoodle
+Animal : Gibbon
+Animal : Gila Monster
+Animal : Giraffe
+Animal : Glass Frog
+Animal : Glass Lizard
+Animal : Glechon
+Animal : Glen Of Imaal Terrier
+Animal : Glow Worm
+Animal : Goat
+Animal : Goberian
+Animal : Goblin Shark
+Animal : Goldador
+Animal : Golden Dox
+Animal : Golden Lion Tamarin
+Animal : Golden Masked Owl
+Animal : Golden Newfie
+Animal : Golden Oriole
+Animal : Golden Pyrenees
+Animal : Golden Retriever
+Animal : Golden Saint
+Animal : Golden Shepherd
+Animal : Golden Crowned Flying Fox
+Animal : Goldendoodle
+Animal : Goliath Frog
+Animal : Goose
+Animal : Gopher
+Animal : Gorilla
+Animal : Gouldian Finch
+Animal : Grasshopper
+Animal : Grasshopper Mouse
+Animal : Gray Fox
+Animal : Gray Tree Frog
+Animal : Great Dane
+Animal : Great Danoodle
+Animal : Great Pyrenees
+Animal : Great White Shark
+Animal : Greater Swiss Mountain Dog
+Animal : Green Anole
+Animal : Green Bee Eater
+Animal : Green Frog
+Animal : Green Tree Frog
+Animal : Greenland Dog
+Animal : Greenland Shark
+Animal : Grey Mouse Lemur
+Animal : Grey Reef Shark
+Animal : Grey Seal
+Animal : Greyhound
+Animal : Griffonshire
+Animal : Grizzly Bear
+Animal : Grouse
+Animal : Guinea Fowl
+Animal : Guinea Pig
+Animal : Guppy
+Animal : Hagfish
+Animal : Hammerhead Shark
+Animal : Hamster
+Animal : Harbor Seal
+Animal : Hare
+Animal : Harp Seal
+Animal : Harpy Eagle
+Animal : Harrier
+Animal : Havanese
+Animal : Havapoo
+Animal : Havashire
+Animal : Hawaiian Crow
+Animal : Hedgehog
+Animal : Hercules Beetle
+Animal : Hermit Crab
+Animal : Heron
+Animal : Herring
+Animal : Highland Cattle
+Animal : Himalayan
+Animal : Hippopotamus
+Animal : Hoary Bat
+Animal : Honduran White Bat
+Animal : Honey Badger
+Animal : Honey Bee
+Animal : Hoopoe
+Animal : Horgi
+Animal : Horn Shark
+Animal : Hornbill
+Animal : Horned Frog
+Animal : Horned Lizard
+Animal : Horse
+Animal : Horsefly
+Animal : Horseshoe Crab
+Animal : House Finch
+Animal : Howler Monkey
+Animal : Human
+Animal : Humboldt Penguin
+Animal : Hummingbird
+Animal : Humpback Whale
+Animal : Huskador
+Animal : Husky Jack
+Animal : Huskydoodle
+Animal : Hyena
+Animal : Ibex
+Animal : Ibis
+Animal : Ibizan Hound
+Animal : Iguana
+Animal : Immortal Jellyfish
+Animal : Impala
+Animal : Imperial Moth
+Animal : Indian Elephant
+Animal : Indian Giant Squirrel
+Animal : Indian Palm Squirrel
+Animal : Indian Rhinoceros
+Animal : Indian Star Tortoise
+Animal : Indochinese Tiger
+Animal : Indri
+Animal : Insects
+Animal : Irish Doodle
+Animal : Irish Setter
+Animal : Irish Terrier
+Animal : Irish WolfHound
+Animal : Italian Greyhound
+Animal : Ivory billed woodpecker
+Animal : Jack Russell
+Animal : Jackabee
+Animal : Jackal
+Animal : Jaguar
+Animal : Japanese Chin
+Animal : Japanese Macaque
+Animal : Japanese Squirrel
+Animal : Japanese Terrier
+Animal : Javan Rhinoceros
+Animal : Javanese
+Animal : Jellyfish
+Animal : Jerboa
+Animal : Kakapo
+Animal : Kangaroo
+Animal : Kangaroo Rat
+Animal : Keel Billed Toucan
+Animal : Keeshond
+Animal : Kerry Blue Terrier
+Animal : Killer Whale
+Animal : Kinder Goat
+Animal : King Cobra
+Animal : King Crab
+Animal : King Penguin
+Animal : Kingfisher
+Animal : Kinkajou
+Animal : Kiwi
+Animal : Koala
+Animal : Kodkod
+Animal : Komodo Dragon
+Animal : Kooikerhondje
+Animal : Kookaburra
+Animal : Koolie
+Animal : Krill
+Animal : Kudu
+Animal : Kuvasz
+Animal : Labmaraner
+Animal : Labradane
+Animal : Labradoodle
+Animal : Labrador Retriever
+Animal : Labraheeler
+Animal : Ladybug
+Animal : Lakeland Terrier
+Animal : Lamprey
+Animal : Leaf Tailed Gecko
+Animal : Lemming
+Animal : Lemur
+Animal : Leopard
+Animal : Leopard Cat
+Animal : Leopard Frog
+Animal : Leopard Seal
+Animal : Leopard Tortoise
+Animal : Lhasapoo
+Animal : Liger
+Animal : Lion
+Animal : Lionfish
+Animal : Little Brown Bat
+Animal : Little Penguin
+Animal : Lizard
+Animal : Llama
+Animal : Loach
+Animal : Lobster
+Animal : Locust
+Animal : Long Eared Owl
+Animal : Longnose Gar
+Animal : Lorikeet
+Animal : Lungfish
+Animal : Lynx
+Animal : Macaroni Penguin
+Animal : Macaw
+Animal : Magellanic Penguin
+Animal : Magpie
+Animal : Maine Coon
+Animal : Malayan Civet
+Animal : Malayan Tiger
+Animal : Mallard
+Animal : Malteagle
+Animal : Maltese
+Animal : Maltipoo
+Animal : Manatee
+Animal : Manchester Terrier
+Animal : Mandrill
+Animal : Maned Wolf
+Animal : Manta Ray
+Animal : Marabou Stork
+Animal : Marble Fox
+Animal : Marine Iguana
+Animal : Marine Toad
+Animal : Markhor
+Animal : Marmot
+Animal : Marsh Frog
+Animal : Masked Palm Civet
+Animal : Mastador
+Animal : Mastiff
+Animal : Mayfly
+Animal : Meagle
+Animal : Meerkat
+Animal : Megalodon
+Animal : Mexican Alligator Lizard
+Animal : Mexican Free Tailed Bat
+Animal : Milkfish
+Animal : Millipede
+Animal : Mini Labradoodle
+Animal : Miniature Bull Terrier
+Animal : Miniature Husky
+Animal : Mink
+Animal : Minke Whale
+Animal : Mole
+Animal : Molly
+Animal : Monarch Butterfly
+Animal : Mongoose
+Animal : Mongrel
+Animal : Monitor Lizard
+Animal : Monkey
+Animal : Monkfish
+Animal : Monte Iberia Eleuth
+Animal : Moorhen
+Animal : Moose
+Animal : Moray Eel
+Animal : Morkie
+Animal : Moth
+Animal : Mountain Bluebird
+Animal : Mountain Cur
+Animal : Mountain Feist
+Animal : Mountain Gorilla
+Animal : Mountain Lion
+Animal : Mourning Dove
+Animal : Mouse
+Animal : Mudpuppy
+Animal : Mule
+Animal : Muskox
+Animal : Muskrat
+Animal : Myna Bird
+Animal : Naked Mole Rat
+Animal : Narwhal
+Animal : Neanderthal
+Animal : Neapolitan Mastiff
+Animal : Newfoundland
+Animal : Newfypoo
+Animal : Newt
+Animal : Nigerian Goat
+Animal : Nightingale
+Animal : Nile Crocodile
+Animal : No See Ums
+Animal : Norfolk Terrier
+Animal : North American Black Bear
+Animal : Northern Cardinal
+Animal : Northern Inuit Dog
+Animal : Norwegian Forest
+Animal : Norwich Terrier
+Animal : Nubian Goat
+Animal : Numbat
+Animal : Nurse Shark
+Animal : Ocelot
+Animal : Octopus
+Animal : Okapi
+Animal : Old English Sheepdog
+Animal : Olm
+Animal : Opossum
+Animal : Orang utan
+Animal : Ostrich
+Animal : Otter
+Animal : Otterhound
+Animal : Oyster
+Animal : Paddlefish
+Animal : Pademelon
+Animal : Painted Turtle
+Animal : Pangolin
+Animal : Panther
+Animal : Parrot
+Animal : Parson Russell Terrier
+Animal : Patas Monkey
+Animal : Patterdale Terrier
+Animal : Peacock
+Animal : Peagle
+Animal : Peekapoo
+Animal : Pekingese
+Animal : Pelican
+Animal : Penguin
+Animal : Pere Davids Deer
+Animal : Peregrine Falcon
+Animal : Persian
+Animal : Petit Basset Griffon Vendéen
+Animal : Petite Goldendoodle
+Animal : Pheasant
+Animal : Pied Tamarin
+Animal : Pig
+Animal : Pigeon
+Animal : Pika
+Animal : Pike Fish
+Animal : Pileated Woodpecker
+Animal : Pink Fairy Armadillo
+Animal : Piranha
+Animal : Pitador
+Animal : Pitsky
+Animal : Platypus
+Animal : Pocket Beagle
+Animal : Pointer
+Animal : Poison Dart Frog
+Animal : Polar Bear
+Animal : Polish Lowland Sheepdog
+Animal : Pomapoo
+Animal : Pomeagle
+Animal : Pomeranian
+Animal : Pomsky
+Animal : Pond Skater
+Animal : Poochon
+Animal : Poodle
+Animal : Poogle
+Animal : Pool Frog
+Animal : Porcupine
+Animal : Porpoise
+Animal : Possum
+Animal : Prairie Dog
+Animal : Prairie Rattlesnake
+Animal : Prawn
+Animal : Proboscis Monkey
+Animal : Pronghorn
+Animal : Pudelpointer
+Animal : Pufferfish
+Animal : Puffin
+Animal : Pug
+Animal : Pugapoo
+Animal : Puggle
+Animal : Pugshire
+Animal : Puma
+Animal : Purple Emperor Butterfly
+Animal : Purple Finch
+Animal : Puss Moth
+Animal : Pygmy Hippopotamus
+Animal : Pygmy Marmoset
+Animal : Pygora Goat
+Animal : Pyrador
+Animal : Pyredoodle
+Animal : Quagga
+Animal : Quail
+Animal : Quetzal
+Animal : Quokka
+Animal : Quoll
+Animal : Rabbit
+Animal : Raccoon
+Animal : Raccoon Dog
+Animal : Radiated Tortoise
+Animal : Ragdoll
+Animal : Raggle
+Animal : Rat
+Animal : Rat Terrier
+Animal : Rattlesnake
+Animal : Red Finch
+Animal : Red Fox
+Animal : Red Knee Tarantula
+Animal : Red Panda
+Animal : Red Squirrel
+Animal : Red Wolf
+Animal : Red handed Tamarin
+Animal : Red winged blackbird
+Animal : Reindeer
+Animal : Rhinoceros
+Animal : River Turtle
+Animal : Robin
+Animal : Rock Hyrax
+Animal : Rockfish
+Animal : Rockhopper Penguin
+Animal : Rose breasted Grosbeak
+Animal : Roseate Spoonbill
+Animal : Rottsky
+Animal : Rottweiler
+Animal : Royal Penguin
+Animal : Ruby Throated Hummingbird
+Animal : Russell Terrier
+Animal : Russian Bear Dog
+Animal : Russian Blue
+Animal : Saarloos Wolfdog
+Animal : Saber Toothed Tiger
+Animal : Sable
+Animal : Saiga
+Animal : Saint Berdoodle
+Animal : Saint Bernard
+Animal : Saint Shepherd
+Animal : Salamander
+Animal : Salmon
+Animal : Salmon Shark
+Animal : Samoyed
+Animal : Sand Lizard
+Animal : Sand Tiger Shark
+Animal : Saola
+Animal : Sardines
+Animal : Sawfish
+Animal : Scarlet Macaw
+Animal : Schneagle
+Animal : Schnoodle
+Animal : Scimitar horned Oryx
+Animal : Scorpion
+Animal : Scorpion Fish
+Animal : Scottish Terrier
+Animal : Sea Dragon
+Animal : Sea Lion
+Animal : Sea Otter
+Animal : Sea Slug
+Animal : Sea Squirt
+Animal : Sea Turtle
+Animal : Sea Urchin
+Animal : Seahorse
+Animal : Seal
+Animal : Sealyham Terrier
+Animal : Senegal Parrot
+Animal : Serval
+Animal : Shark
+Animal : Sharp Tailed Snake
+Animal : Sheep
+Animal : Sheepadoodle
+Animal : Shepadoodle
+Animal : Shepkita
+Animal : Shepweiler
+Animal : Shiba Inu
+Animal : Shih Poo
+Animal : Shih Tzu
+Animal : Shoebill Stork
+Animal : Shollie
+Animal : Shrimp
+Animal : Siamese
+Animal : Siamese Fighting Fish
+Animal : Siberian
+Animal : Siberian Husky
+Animal : Siberian Retriever
+Animal : Siberian Tiger
+Animal : Siberpoo
+Animal : Silky Terrier
+Animal : Silver Dollar
+Animal : Silver Labrador
+Animal : Sixgill shark
+Animal : Skate Fish
+Animal : Skink Lizard
+Animal : Skipjack Tuna
+Animal : Skunk
+Animal : Skye Terrier
+Animal : Sleeper Shark
+Animal : Sloth
+Animal : Slow Worm
+Animal : Smooth Fox Terrier
+Animal : Snail
+Animal : Snake
+Animal : Snapping Turtle
+Animal : Snorkie
+Animal : Snow Leopard
+Animal : Snowshoe
+Animal : Snowshoe Hare
+Animal : Snowy Owl
+Animal : Somali
+Animal : South China Tiger
+Animal : Spadefoot Toad
+Animal : Spanador
+Animal : Spanish Goat
+Animal : Sparrow
+Animal : Spectacled Bear
+Animal : Sperm Whale
+Animal : Spider Monkey
+Animal : Spinner Shark
+Animal : Spiny Dogfish
+Animal : Spixs Macaw
+Animal : Sponge
+Animal : Spotted Gar
+Animal : Springador
+Animal : Springbok
+Animal : Springerdoodle
+Animal : Squid
+Animal : Squirrel
+Animal : Squirrel Monkey
+Animal : Sri Lankan Elephant
+Animal : Staffordshire Bull Terrier
+Animal : Stag Beetle
+Animal : Star nosed mole
+Animal : Starfish
+Animal : Steller’s Sea Cow
+Animal : Stick Insect
+Animal : Stingray
+Animal : Stoat
+Animal : Striped Hyena
+Animal : Striped Rocket Frog
+Animal : Sturgeon
+Animal : Sucker Fish
+Animal : Sugar Glider
+Animal : Sulcata Tortoise
+Animal : Sumatran Elephant
+Animal : Sumatran Orang utan
+Animal : Sumatran Rhinoceros
+Animal : Sumatran Tiger
+Animal : Sun Bear
+Animal : Swai Fish
+Animal : Swan
+Animal : Swedish Vallhund
+Animal : Syrian Hamster
+Animal : Taco Terrier
+Animal : Tamaskan
+Animal : Tang
+Animal : Tapanuli Orang utan
+Animal : Tapir
+Animal : Tarpon
+Animal : Tarsier
+Animal : Tasmanian Devil
+Animal : Tasmanian Tiger
+Animal : Tawny Owl
+Animal : Teddy Roosevelt Terrier
+Animal : Tenterfield Terrier
+Animal : Termite
+Animal : Terrier
+Animal : Tetra
+Animal : Texas Heeler
+Animal : Thai Ridgeback
+Animal : Thorny Devil
+Animal : Thrush
+Animal : Tibetan Fox
+Animal : Tibetan Mastiff
+Animal : Tibetan Spaniel
+Animal : Tibetan Terrier
+Animal : Tiffany
+Animal : Tiger
+Animal : Tiger Salamander
+Animal : Tiger Shark
+Animal : Toadfish
+Animal : Torkie
+Animal : Tortoise
+Animal : Toucan
+Animal : Toy Fox Terrier
+Animal : Toy Poodle
+Animal : Tree Frog
+Animal : Tree Kangaroo
+Animal : Tree swallow
+Animal : Tropicbird
+Animal : Tsetse Fly
+Animal : Tuatara
+Animal : Tuna
+Animal : Turkey
+Animal : Turkish Angora
+Animal : Uakari
+Animal : Uguisu
+Animal : Umbrellabird
+Animal : Utonagan
+Animal : Vampire Bat
+Animal : Vampire Squid
+Animal : Vaquita
+Animal : Vervet Monkey
+Animal : Virgin Islands Dwarf Gecko
+Animal : Vulture
+Animal : Wallaby
+Animal : Walleye Fish
+Animal : Walrus
+Animal : Wandering Albatross
+Animal : Warthog
+Animal : Wasp
+Animal : Water Buffalo
+Animal : Water Dragon
+Animal : Water Vole
+Animal : Weasel
+Animal : Weimardoodle
+Animal : Welsh Corgi
+Animal : Welsh Terrier
+Animal : West Highland Terrier
+Animal : Western Gorilla
+Animal : Western Lowland Gorilla
+Animal : Westiepoo
+Animal : Whale Shark
+Animal : Wheaten Terrier
+Animal : Whippet
+Animal : White Rhinoceros
+Animal : White Tiger
+Animal : White Faced Capuchin
+Animal : White tail deer
+Animal : Whoodle
+Animal : Whooping Crane
+Animal : Wild Boar
+Animal : Wildebeest
+Animal : Wire Fox Terrier
+Animal : Wolf
+Animal : Wolf Eel
+Animal : Wolf Spider
+Animal : Wolffish
+Animal : Wolverine
+Animal : Wombat
+Animal : Wood Bison
+Animal : Wood Frog
+Animal : Wood Turtle
+Animal : Woodlouse
+Animal : Woodpecker
+Animal : Woolly Mammoth
+Animal : Woolly Monkey
+Animal : Wrasse
+Animal : Wyoming Toad
+Animal : XRay Tetra
+Animal : Xerus
+Animal : Yak
+Animal : Yakutian Laika
+Animal : Yellow Eyed Penguin
+Animal : Yellowfin Tuna
+Animal : Yoranian
+Animal : Yorkie Bichon
+Animal : Yorkie Poo
+Animal : Yorkshire Terrier
+Animal : Zebra
+Animal : Zebra Finch
+Animal : Zebra Shark
+Animal : Zebu
+Animal : Zonkey
+Animal : Zorse
