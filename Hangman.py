@@ -1,3 +1,4 @@
+from os import path
 import turtle
 import tkinter
 from tkinter import *
@@ -178,6 +179,40 @@ def KillHangman():
         #call gameover function
         gameover()
 
+def FileChoose():
+    global endFile , lineCount
+
+    fileDice = random.randint(1,6)
+    
+    #path
+    NamePath = "D:\Work\Pythonexe\Project\Hangman\Database\\Name.txt"
+    AnimalPath = "D:\Work\Pythonexe\Project\Hangman\Database\Animal.txt"
+    MoviePath = "D:\Work\Pythonexe\Project\Hangman\Database\Movie.txt"
+    TVShowPath = "D:\Work\Pythonexe\Project\Hangman\Database\TV show.txt"
+    CarPath = "D:\Work\Pythonexe\Project\Hangman\Database\Car.txt"
+    OtherPath = "D:\Work\Pythonexe\Project\Hangman\Database\Other.txt"
+
+    if fileDice == 1 :
+        path = AnimalPath
+    elif fileDice == 2 :
+        path = CarPath
+    elif fileDice == 3 :
+        path = MoviePath
+    elif fileDice == 4 :
+        path = NamePath
+    elif fileDice == 5 :
+        path = OtherPath
+    elif fileDice == 6 :
+        path = TVShowPath
+
+    #database
+    with open(path , "r") as ReadMode:  
+        File =  ReadMode.readlines()
+        for line in File :
+            lineCount += 1
+            line = re.sub(r"\n" , "" , line)
+            endFile.append(line.split(" : "))
+
 def CharFound():
     global answer , answerText , answerLength , charLocate
     
@@ -226,12 +261,14 @@ def win():
     playagain.place(x = 630 , y = 370)
 
 def Playagain():
-    global wrong , dice , answer , answerLength , lineCount , lastAnswer 
+    global wrong , answer , answerLength , lineCount , lastAnswer , endFile
 
-    dice = random.randint(0,lineCount - 1)
-    hint.config(text = "(" + endFile[dice][0] + ")")
-    answer = endFile[dice][1].lower()
-    answerLength = len(endFile[dice][1])
+    FileChoose()
+    wordDice = random.randint(0,lineCount-1)
+    
+    hint.config(text = "(" + endFile[wordDice][0] + ")")
+    answer = endFile[wordDice][1].lower()
+    answerLength = len(endFile[wordDice][1])
     answerLable.config(text = CharFound() , fg = "black")
     lastAnswer = answerLable['text']
 
@@ -336,27 +373,20 @@ charLocate = list()
 lastAnswer = ""
 lineCount = 0
 answerText = ""
-
-#database
 endFile = list()
-with open("D:\Work\Pythonexe\Project\Hangman\database.txt" , "r") as ReadMode:
-        File =  ReadMode.readlines()
-        for line in File :
-            lineCount += 1
-            line = re.sub(r"\n" , "" , line)
-            endFile.append(line.split(" : "))
 
-dice = random.randint(0,lineCount-1)
+FileChoose()
+wordDice = random.randint(0,lineCount-1)
 
 #hint lable
-hint = Label(main , text = "(" +endFile[dice][0] + ")", font = 'arial')
+hint = Label(main , text = "(" + endFile[wordDice][0] + ")", font = 'arial')
 hint.pack()
 hint.place(x = 180 , y = 10)
 hint['bg'] = '#FFCD73'
 
 #answer lable
-answer = endFile[dice][1].lower()
-answerLength = len(endFile[dice][1])
+answer = endFile[wordDice][1].lower()
+answerLength = len(endFile[wordDice][1])
 answerLable = Label(main , text = CharFound() , font = 'arial')
 answerLable.pack()
 answerLable.place(x = 290 , y = 70)
