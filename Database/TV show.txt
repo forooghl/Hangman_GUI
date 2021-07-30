@@ -12,7 +12,7 @@ TV show : Money heist
 TV show : game of thrones
 TV show : sherlock
 TV show : avatar the last airbender
-TV show : the handmaid’s tale
+TV show : the handmaid's tale
 TV show : killing eve
 TV show : you
 TV show : sex education
@@ -24,7 +24,8 @@ TV show : True detective
 TV show : stranger things
 TV show : lie to me
 TV show : lost
-TV show : grey’s anatomy
+TV show : 13 reasons why
+TV show : grey's anatomy
 TV show : how I met your mother
 TV show : supernatural
 TV show : merlin
@@ -37,4 +38,4 @@ TV show : Brooklyn nine-nine
 TV show : house
 TV show : peaky blinders
 TV show : rick and Morty
-TV show : queen’s gambit
+TV show : queen's gambit

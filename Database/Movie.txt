@@ -27,7 +27,7 @@ Movie : Pretty in Pink
 Movie : Harry and the Hendersons
 Movie : Too Wong Foo
 Movie : Weekend at Bernie's
-Movie : Babe’s in Toyland
+Movie : Babe's in Toyland
 Movie : Real Genius
 Movie : Clueless
 Movie : Encino Man
@@ -62,6 +62,7 @@ Movie : Jason Bourne
 Movie :  redemption
 Movie : miss Sloane
 Movie : PK
+Movie : case 39
 Movie : nightcrawler
 Movie : red sparrow
 Movie : fences
@@ -70,7 +71,7 @@ Movie : real steel
 Movie : hacksaw ridge
 Movie : the old Guard
 Movie : Dunkirk
-Movie : I, tony
+Movie : I tony
 Movie : Alita
 Movie : Passengers
 Movie : gone girl
