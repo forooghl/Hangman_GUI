@@ -178,13 +178,34 @@ def KillHangman():
         #call gameover function
         gameover()
 
-def spaceFound():
+def CharFound():
     global answer , answerText , answerLength
+    
+    #space
     charLocate = list(mit.locate(answer , lambda x : x == " "))
     answerText = answerLength*"_ "
 
     for i in charLocate:    
         answerText = answerText[:i*2] + " " + answerText[i*2 + 1 :]
+    
+    # '
+    charLocate = list(mit.locate(answer , lambda x : x == "'"))
+
+    for i in charLocate:    
+        answerText = answerText[:i*2] + "'" + answerText[i*2 + 1 :]
+    
+    # -
+    charLocate = list(mit.locate(answer , lambda x : x == "-"))
+
+    for i in charLocate:    
+        answerText = answerText[:i*2] + "-" + answerText[i*2 + 1 :]
+    
+    # .
+        charLocate = list(mit.locate(answer , lambda x : x == "."))
+
+    for i in charLocate:    
+        answerText = answerText[:i*2] + "." + answerText[i*2 + 1 :]
+    
     return answerText
 
 def gameover():
@@ -211,7 +232,7 @@ def Playagain():
     hint.config(text = "(" + endFile[dice][0] + ")")
     answer = endFile[dice][1].lower()
     answerLength = len(endFile[dice][1])
-    answerLable.config(text = spaceFound() , fg = "black")
+    answerLable.config(text = CharFound() , fg = "black")
     lastAnswer = answerLable['text']
 
     canvas.delete("all")
@@ -336,7 +357,7 @@ hint['bg'] = '#FFCD73'
 #answer lable
 answer = endFile[dice][1].lower()
 answerLength = len(endFile[dice][1])
-answerLable = Label(main , text = spaceFound() , font = 'arial')
+answerLable = Label(main , text = CharFound() , font = 'arial')
 answerLable.pack()
 answerLable.place(x = 290 , y = 70)
 answerLable['bg'] = '#FFCD73'
@@ -478,7 +499,6 @@ playagain = Button(main , text = "playagain" , fg = "#57291F" , command = Playag
 playagain.pack()
 playagain.place(x = 800 , y = 1)
 playagain['bg'] = "#D77B5F"
-
 
 hangman()
 KillHangman()
