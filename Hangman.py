@@ -179,7 +179,7 @@ def KillHangman():
         gameover()
 
 def CharFound():
-    global answer , answerText , answerLength
+    global answer , answerText , answerLength , charLocate
     
     #space
     charLocate = list(mit.locate(answer , lambda x : x == " "))
@@ -201,7 +201,7 @@ def CharFound():
         answerText = answerText[:i*2] + "-" + answerText[i*2 + 1 :]
     
     # .
-        charLocate = list(mit.locate(answer , lambda x : x == "."))
+    charLocate = list(mit.locate(answer , lambda x : x == "."))
 
     for i in charLocate:    
         answerText = answerText[:i*2] + "." + answerText[i*2 + 1 :]
