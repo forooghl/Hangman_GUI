@@ -185,12 +185,12 @@ def FileChoose():
     fileDice = random.randint(1,6)
     
     #path
-    NamePath = "D:\Work\Pythonexe\Project\Hangman\Database\\Name.txt"
-    AnimalPath = "D:\Work\Pythonexe\Project\Hangman\Database\Animal.txt"
-    MoviePath = "D:\Work\Pythonexe\Project\Hangman\Database\Movie.txt"
-    TVShowPath = "D:\Work\Pythonexe\Project\Hangman\Database\TV show.txt"
-    CarPath = "D:\Work\Pythonexe\Project\Hangman\Database\Car.txt"
-    OtherPath = "D:\Work\Pythonexe\Project\Hangman\Database\Other.txt"
+    NamePath = "Database\\Name.txt"
+    AnimalPath = "Database\Animal.txt"
+    MoviePath = "Database\Movie.txt"
+    TVShowPath = "Database\TV show.txt"
+    CarPath = "Database\Car.txt"
+    OtherPath = "Database\Other.txt"
 
     if fileDice == 1 :
         path = AnimalPath
